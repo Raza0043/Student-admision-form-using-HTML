@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Oxford University London</title>
+    <link rel="shortcut icon" type="image/x-icon" href="C:\Users\REC\Desktop\SMIT HTML\Assignment 02 form\images\1.png">
+
+</head>
+<div style="text-align: center; margin-top: 5px;">
+    <img src="C:\Users\REC\Desktop\SMIT HTML\Assignment 02 form\images\images.png" alt="Logo not found" width="200" height="100" ></div>
+
+<body>
+    <h1>Student Portal</h1>
+    <p>Welcome to the student portal!</p>
+    <form onsubmit="alert('Thank you ! The test date will be emailed to you.'); return false;">
+        <label for="studentName"><B>*Student Name:</B></label>
+      <input type="text" id="studentName" name="studentName" placeholder=" ">      (Maximum 20 letters )<br><br>
+
+        <label for="fatherName"><B>*Father's Name:</B></label>
+        <input type="text" id="fatherName" name="fatherName" placeholder=""><br><br>
+
+        <label for="DOB"><B>*Date of Birth:</B></label>
+        <input type="text" id="DOB" name="Date of Birth" placeholder="           MM-DD-YYYY"><br><br>
+
+
+
+        <label for="studentCnic"><B>*Student CNIC:</B></label>
+        <input type="text" id="studentCnic" name="studentCnic" placeholder="42201********"><br><br>
+
+        <label for="fatherCnic"><B>*Father's CNIC:</B></label>
+        <input type="text" id="fatherCnic" name="fatherCnic" placeholder="42201********"><br><br>
+
+        <label for="email"> <B>*Email:</B></label>
+        <input type="email" id="email" name="email" placeholder=""><br><br>
+
+        <label for="gender"><B>*Gender (M/F):</B></label><br><br>
+        <label for="male">
+            <input type="radio" id="male" name="gender" value="male" required> Male
+        </label>
+        <label for="female">
+            <input type="radio" id="female" name="gender" value="female" required> Female
+        </label><br><br>
+
+
+        <label for="City"><B>*City:</B></label>
+        <input type="text" id="City" name="city" placeholder=""><br><br>
+
+
+        <label for="Pin Code"><B>*Pin code:</B></label>
+        <input type="text" id="Pin code" name="Pin Code" placeholder=""><br><br>
+       
+       
+        <label for="State"><B>*State:</B></label>
+        <input type="text" id="State" name="State" placeholder=" Pakistan"><br><br>
+
+
+        <label for="City"><B>*City:</B></label>
+        <input type="text" id="City" name="city" placeholder=""><br><br>
+
+
+
+
+
+
+
+
+        <label for="address"><B>*Address:</B></label><br><br>
+        <textarea id="address" name="address" rows="4" cols="50" placeholder="Enter address"></textarea><br><br>
+
+
+
+        <!--<label for="COUSRE APPLIED FOR">*COUSRE APPLIED FOR:</label><BR>
+
+        <input type="radio" id="BCA" name="BCA" value="BCA" required>BCA<br><br>
+        <input type="radio" id="BSCS" name="BSCS" value="BSCS" required>BSCS<br><br>
+        <input type="radio" id="B.com" name="B.com" value="B.com" required>B.com<br><br>
+        <input type="radio" id="B.A" name="B.A" value="B.A" required>B.A<br><br>
+        -->
+
+
+        <label for="course"><B>*Course Applied For:</B></label><br>
+        <input type="radio" id="BCA" name="course" value="BCA" required> BCA<br>
+        <input type="radio" id="BSCS" name="course" value="BSCS" required> BSCS<br>
+        <input type="radio" id="Bcom" name="course" value="Bcom" required> B.com<br>
+        <input type="radio" id="BA" name="course" value="BA" required> B.A<br>
+
+<br><br>
+
+
+
+
+        
+
+        <input type="submit" value="Submit">
+        
+        <input type="Reset" value="Reset">
+    </form>
+</body>
+
+</html>
